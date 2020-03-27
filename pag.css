@@ -1,0 +1,108 @@
+* {
+  margin: 5px 0px 5px 0px ;/*ou 5px 0px(cima e direita)*/
+  font-family: 'Bellota', cursive;
+}
+
+.site {
+  background-color : #FFFFFF;
+  width : 800px;/*largura de um elemento*/
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+body {
+  background-image: url('https://3.bp.blogspot.com/-GcOI_-5RYoQ/UV8g6rjOmdI/AAAAAAAB57o/pf8g3Qj6hbw/s1600/fundos-para-blog-e-sites+(4).png');
+}
+.site .conteudo {
+  /*background-color: green;*/
+  min-height: 300px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+  border-top: solid 1px  #ADADAD;
+  border-bottom: solid 1px  #ADADAD;
+}
+/*.site .conteudo .noticias{
+  font-size: 10px;
+}*/
+.site .topo, .site .rodape{
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+.botao{
+  font-size: 18px;
+  text-decoration: none;/*remove o underline de baixo dos links*/
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 25px;
+  color: #000000;
+
+}
+.botao-azul {
+  background-color: #3385ff;
+  border: solid: 1px #99bbff;
+}
+.botao-azul:hover{
+  background-color: #cce0ff;
+}
+.botao-rosa:hover{
+  background-color: #ffcce5;
+}
+.botao-vermelho:hover{
+  background-color: #ffc2b3;
+}
+.botao-vermelho {
+  background-color: #ff1a1a;
+  border: solid: 1px #ff8080;
+}
+.botao-rosa {
+  background-color: #ff4da6;
+  border: solid: 1px #ffb3d1;
+}
+.menu{
+  background-color: #b3f0ff;
+  border-radius: 25px;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu ul li{
+  display: inline-block;
+  font-size: 18px;
+  color: #000000;
+}
+.menu ul li a{
+text-decoration: none;/*remove o underline de baixo dos links*/
+color: #000000;
+font-family: 'Permanent Marker', cursive;
+display: inline-block;
+padding: 5px 20px;
+}
+.menu a:hover{
+background-color: #00a3cc;
+}
+.noticias h3{
+font-family: 'Permanent Marker', cursive;
+font-size: 20px;
+padding: 5px 5px;
+margin-top: 20px;
+border-radius: 20px;
+}
+.conteudo img{
+width : 400px;/*largura de um elemento*/
+}
+.noticias p{
+font-size: 16px;
+text-align: justify;
+}
+.noticias h4{
+font-size: 18px;
+padding: 5px 5px;
+margin-top: 20px;
+border-radius: 20px;
+}
+.noticias table td, .noticias table th{
+border-bottom: solid 1px #DADADA;
+padding: 5px 1px;
+
+}
